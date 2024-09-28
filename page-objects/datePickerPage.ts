@@ -2,7 +2,7 @@ import { Page,expect } from "@playwright/test";
 import { HelperBase } from "./helperBase";
 
 export class DatePickerPage extends HelperBase {
-    readonly page: Page
+   // readonly page: Page
 
     constructor(page: Page){
       super(page)
